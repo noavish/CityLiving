@@ -115,7 +115,7 @@ body {
 
 }
 
-nav: after {
+nav:after {
     display: table;
     content: "";
     clear: both;
