@@ -62,12 +62,16 @@ nav {
 }
 
 .menu ul li {
-    margin-left: 10px;
+    /* margin-left: 10px; */
+    padding: 15px;
+}
+
+#home-btn:hover {
+    background-color: rgba(0, 0, 0, 0);
 }
 
 .menu ul li:hover {
-    background-color: #777;
-    border: black solid 1px;
+    background-color: #ccc;
 }
 
 .book-now {
@@ -80,6 +84,10 @@ nav {
 
 .book-now:hover {
     background-color: rgb(255, 241, 232);
+}
+
+#button-li:hover {
+    background-color: rgba(0, 0, 0, 0);
 }
 
 .hero {
@@ -132,6 +140,10 @@ hr {
     padding-right: 5%;
     padding-left: 5%;
 }
+
+.home-pics img:hover {
+    filter: brightness(110%);
+} 
 
 .home-pic {
     padding-left: 2%;
@@ -195,12 +207,13 @@ hr {
     text-align: center;    
 }
 
-.map {
+#map {
     background-color: gray;
-    height: 100%;
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 150px;
+    padding-right: 150px;
     margin-bottom: 50px;
+    /* width:400px;
+    height:400px */
 }
 
 .map-row {

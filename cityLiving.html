@@ -7,6 +7,9 @@
     <link rel="stylesheet" type="text/css" href="shoestrap.css">
     <link rel="stylesheet" type="text/css" href="styleCity.css">
     <script src="https://use.fontawesome.com/ea401c2e86.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?callback=myMap"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="script.js"></script>    
     <title>City Living London | Luxury Short Term Apartments To Rent</title>
 </head>
 <body>
@@ -18,11 +21,11 @@
             </div>
             <div class="menu">
                 <ul>
-                    <li class="#">Home</li>
+                    <li class="#" id='home-btn'>Home</li>
                     <li class="#">Apartments</li>
                     <li class="#">Location</li>
                     <li class="#">Contact</li>
-                    <li class="#"><button type="button" class="book-now">BOOK NOW</button></li>
+                    <li id="button-li"><button type="button" class="book-now">BOOK NOW</button></li>
                 </ul>
             </div>
         </nav>
@@ -83,8 +86,7 @@
         <div class="row map-row">
             <div class="col-1">
             </div>
-            <div class="col-10 map">
-                map
+            <div class="col-10" id="map">
             </div>
             <div class="col-1">
             </div>
@@ -138,19 +140,19 @@
     <section>
         <div class="home-pics row">
             <div class="home-pic col-3"> 
-                <img src="heinze-tile.jpg">  
+                <a href="#"><img src="heinze-tile.jpg"></a>
                 <p>The Heinze Building</p>
             </div>
             <div class="home-pic col-3">  
-                <img src="back-apartments.jpg">  
+                <a href="#"><img src="back-apartments.jpg"></a>
                 <p>Mulberry House</p>    
             </div>
             <div class="home-pic col-3">   
-                <img src="back-prices-availability.jpg">  
+                <a href="#"><img src="back-prices-availability.jpg"></a>
                 <p>Price & availability</p>   
             </div>
             <div class="home-pic col-3">  
-                <img src="back-central-location.jpg">   
+                <a href="#"><img src="back-central-location.jpg"></a>   
                 <p>Center Location</p>   
             </div>
         </div>
